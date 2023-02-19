@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "deploy-testing": "sh ./bin/subportal_deploy.sh console_subportal testing",
+        "deploy-staging": "sh ./bin/subportal_deploy.sh console_subportal staging",
+        "deploy-pek2": "sh ./bin/subportal_deploy.sh console_subportal_pek2"
+            }
+}
